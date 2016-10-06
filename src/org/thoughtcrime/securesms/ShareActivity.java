@@ -148,10 +148,10 @@ public class ShareActivity extends PassphraseRequiredActionBarActivity
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
     super.onOptionsItemSelected(item);
-    switch (item.getItemId()) {
+    /*switch (item.getItemId()) {
     case R.id.menu_new_message: handleNewConversation(); return true;
     case android.R.id.home:     finish();                return true;
-    }
+    }*/
     return false;
   }
 

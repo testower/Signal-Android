@@ -167,7 +167,7 @@ public class InCallAudioButton {
   private class AudioRoutingPopupListener implements PopupMenu.OnMenuItemClickListener {
     @Override
     public boolean onMenuItemClick(MenuItem item) {
-      switch (item.getItemId()) {
+      /*switch (item.getItemId()) {
         case R.id.handset:
           currentMode = DEFAULT;
           break;
@@ -179,7 +179,7 @@ public class InCallAudioButton {
           break;
         default:
           Log.w(TAG, "Unknown item selected in audio popup menu: " + item.toString());
-      }
+      }*/
       Log.d(TAG, "Selected: " + currentMode + " -- " + item.getItemId());
 
       listener.onAudioChange(currentMode);

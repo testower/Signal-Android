@@ -199,10 +199,10 @@ public class MediaOverviewActivity extends PassphraseRequiredActionBarActivity i
   public boolean onOptionsItemSelected(MenuItem item) {
     super.onOptionsItemSelected(item);
 
-    switch (item.getItemId()) {
+    /*switch (item.getItemId()) {
     case R.id.save:         saveToDisk(); return true;
     case android.R.id.home: finish();     return true;
-    }
+    }*/
 
     return false;
   }

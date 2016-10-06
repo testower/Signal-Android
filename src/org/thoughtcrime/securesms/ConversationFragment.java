@@ -456,7 +456,7 @@ public class ConversationFragment extends Fragment
 
     @Override
     public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
-      switch(item.getItemId()) {
+      /*switch(item.getItemId()) {
         case R.id.menu_context_copy:
           handleCopyMessage(getListAdapter().getSelectedItems());
           actionMode.finish();
@@ -481,7 +481,7 @@ public class ConversationFragment extends Fragment
           handleSaveAttachment((MediaMmsMessageRecord)getSelectedMessageRecord());
           actionMode.finish();
           return true;
-      }
+      }*/
 
       return false;
     }

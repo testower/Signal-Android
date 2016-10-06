@@ -239,7 +239,7 @@ public class GroupCreateActivity extends PassphraseRequiredActionBarActivity
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
     super.onOptionsItemSelected(item);
-    switch (item.getItemId()) {
+    /*switch (item.getItemId()) {
       case android.R.id.home:
         finish();
         return true;
@@ -247,7 +247,7 @@ public class GroupCreateActivity extends PassphraseRequiredActionBarActivity
         if (groupToUpdate.isPresent()) handleGroupUpdate();
         else                           handleGroupCreate();
         return true;
-    }
+    }*/
 
     return false;
   }

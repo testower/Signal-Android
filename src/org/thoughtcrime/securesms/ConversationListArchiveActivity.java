@@ -45,9 +45,9 @@ public class ConversationListArchiveActivity extends PassphraseRequiredActionBar
   public boolean onOptionsItemSelected(MenuItem item) {
     super.onOptionsItemSelected(item);
 
-    switch (item.getItemId()) {
+    /*switch (item.getItemId()) {
       case R.id.home: super.onBackPressed(); return true;
-    }
+    }*/
 
     return false;
   }

@@ -94,9 +94,9 @@ public class PassphrasePromptActivity extends PassphraseActivity {
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
     super.onOptionsItemSelected(item);
-    switch (item.getItemId()) {
+    /*switch (item.getItemId()) {
     case R.id.menu_submit_debug_logs: handleLogSubmit(); return true;
-    }
+    }*/
 
     return false;
   }

@@ -69,12 +69,12 @@ public class NewConversationActivity extends ContactSelectionActivity {
   public boolean onOptionsItemSelected(MenuItem item) {
     super.onOptionsItemSelected(item);
 
-    switch (item.getItemId()) {
+    /*switch (item.getItemId()) {
     case android.R.id.home:   super.onBackPressed(); return true;
     case R.id.menu_refresh:   handleManualRefresh(); return true;
     case R.id.menu_new_group: handleCreateGroup();   return true;
     case R.id.menu_invite:    handleInvite();        return true;
-    }
+    }*/
 
     return false;
   }

@@ -77,7 +77,7 @@ public class ConversationPopupActivity extends ConversationActivity {
 
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
-    switch (item.getItemId()) {
+    /*switch (item.getItemId()) {
       case R.id.menu_expand:
         saveDraft().addListener(new ListenableFuture.Listener<Long>() {
           @Override
@@ -103,7 +103,7 @@ public class ConversationPopupActivity extends ConversationActivity {
           }
         });
         return true;
-    }
+    }*/
 
     return false;
   }
